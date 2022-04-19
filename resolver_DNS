@@ -1,7 +1,7 @@
 import dns.resolver
 
 res = dns.resolver.Resolver()
-arquivo = open("/home/tdelubio/Documentos/programação/pentest/python/wordlis>
+arquivo = open("/home/tdelubio/Documentos/programação/pentest/python/wordlist")
 subdominios = arquivo.read().splitlines()
 
 alvo = "bancocn.com"
